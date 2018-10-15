@@ -6,7 +6,8 @@ Table of Contents
 =================
 <!--ts-->
    * [Introduction](/README.md)
-   * [Read Sample](/docs/ReadSample.md)
+   * [Writing Data](/docs/WritingData.md)
+   * [Reading Data](/docs/ReadingData.md)
 <!--te-->
 
 ## Introduction

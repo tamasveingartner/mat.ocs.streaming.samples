@@ -6,11 +6,13 @@ Table of Contents
 =================
 <!--ts-->
    * [Introduction](/README.md)
-   * [Read Sample](/docs/ReadSample.md)
+   * [Writing Data](/docs/WritingData.md)
+   * [Reading Data](/docs/ReadingData.md)
 <!--te-->
 
-## Read Sample
+## Reading Data
 
+Demonstrates reading from a stream and printing time and parameter data to the Console.
 
 ```c#
 using System;
