@@ -13,6 +13,7 @@ Table of Contents
     * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
     * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
     * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
+        * [ATLAS 10 Configuration](/docs/Matlab/Atlas10Configuration.md)
     * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 
