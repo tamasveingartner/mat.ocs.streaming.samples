@@ -5,23 +5,23 @@
 Table of Contents
 =================
 <!--ts-->
-* [Introduction](/README.md)
-* C# Samples
-    * [Writing Data](/docs/CSharp/WritingData.md)
-    * [Reading Data](/docs/CSharp/ReadingData.md)
-* MATLAB Samples
+* [Introduction - MAT.OCS.Streaming library](/README.md)
+* C# samples
+    * [Writing data](/docs/CSharp/WritingData.md)
+    * [Reading data](/docs/CSharp/ReadingData.md)
+* MATLAB samples
     * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
     * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
     * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
-        * [ATLAS 10 Configuration](/docs/Matlab/Atlas10Configuration.md)
+        * [ATLAS10 configuration](/docs/Matlab/Atlas10Configuration.md)
     * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 
-# ATLAS 10 configuration
+# ATLAS10 Configuration
 
-To make data visible and readable in Atlas10, code has to handle Atlas 10 configuration. 
+To make data visible and readable in ATLAS10, code has to handle ATLAS10 configuration. 
 
-## Creating Atlas 10 configuration
+## Creating ATLAS10 Configuration
 ```matlab
 function atlasConfiguration = createAtlasConfiguration(~)
 
@@ -59,7 +59,7 @@ atlasConfiguration.AppGroups = appGroups;
 end
 ```
 
-## Sending atlas configuration to dependency service
+## Sending ATLAS10 Configuration to Dependency Service
 ```matlab
 fileDependencyClient = FileDependencyClient('C:/temp/dep');
 
@@ -71,15 +71,15 @@ atlasConfiguration = ctor.createAtlasConfiguration();
 acClient.PutAtlasConfiguration('AtlasCf_1', atlasConfiguration);
 ```
 
-## Session dependencies
+## Session Dependencies
 Adding Atlas 10 configuration ID to session dependencies.
 
 ```matlab
 output.SessionOutput.AddSessionDependency(DependencyTypes.AtlasConfiguration, AtlasCf_1');
 ```
 
-## Working sample
-Working sample including Atlas 10 configuration handling.
+## Working Sample
+Working sample including ATLAS10 configuration handling.
 
 ```matlab
 classdef KafkaTopicProducerSampleWithAtlas10Dep < handle

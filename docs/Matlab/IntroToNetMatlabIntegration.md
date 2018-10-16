@@ -5,21 +5,21 @@
 Table of Contents
 =================
 <!--ts-->
-* [Introduction](/README.md)
-* C# Samples
-    * [Writing Data](/docs/CSharp/WritingData.md)
-    * [Reading Data](/docs/CSharp/ReadingData.md)
-* MATLAB Samples
+* [Introduction - MAT.OCS.Streaming library](/README.md)
+* C# samples
+    * [Writing data](/docs/CSharp/WritingData.md)
+    * [Reading data](/docs/CSharp/ReadingData.md)
+* MATLAB samples
     * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
     * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
     * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
-        * [ATLAS 10 Configuration](/docs/Matlab/Atlas10Configuration.md)
+        * [ATLAS10 configuration](/docs/Matlab/Atlas10Configuration.md)
     * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 
-# Introduction to .NET MATLAB integration
+# Introduction to .NET MATLAB Integration
 
-## Loading and importing .NET assemblies
+## Loading and Importing .NET Assemblies
 
 Load .NET assemblies using NET.addAssembly. 
 
@@ -67,7 +67,7 @@ or
 params = NET.createArray('System.String', ['vCar', 'NGear']);
 ```
 
-## Registering event handlers
+## Registering Event Handlers
 In general, use the addListener function to register .NET event handlers. If this does not work in specific instances, the following approach can be used: 
 
 ```matlab

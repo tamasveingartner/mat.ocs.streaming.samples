@@ -5,15 +5,15 @@
 Table of Contents
 =================
 <!--ts-->
-* [Introduction](/README.md)
-* C# Samples
-    * [Writing Data](/docs/CSharp/WritingData.md)
-    * [Reading Data](/docs/CSharp/ReadingData.md)
-* MATLAB Samples
+* [Introduction - MAT.OCS.Streaming library](/README.md)
+* C# samples
+    * [Writing data](/docs/CSharp/WritingData.md)
+    * [Reading data](/docs/CSharp/ReadingData.md)
+* MATLAB samples
     * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
     * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
     * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
-        * [ATLAS 10 Configuration](/docs/Matlab/Atlas10Configuration.md)
+        * [ATLAS10 configuration](/docs/Matlab/Atlas10Configuration.md)
     * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 

@@ -5,19 +5,19 @@
 Table of Contents
 =================
 <!--ts-->
-* [Introduction](/README.md)
-* C# Samples
-    * [Writing Data](/docs/CSharp/WritingData.md)
-    * [Reading Data](/docs/CSharp/ReadingData.md)
-* MATLAB Samples
+* [Introduction - MAT.OCS.Streaming library](/README.md)
+* C# samples
+    * [Writing data](/docs/CSharp/WritingData.md)
+    * [Reading data](/docs/CSharp/ReadingData.md)
+* MATLAB samples
     * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
     * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
     * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
-        * [ATLAS 10 Configuration](/docs/Matlab/Atlas10Configuration.md)
+        * [ATLAS10 configuration](/docs/Matlab/Atlas10Configuration.md)
     * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 
-# Reading data from Kafka
+# Reading Data From Kafka
 
 This sample demonstrates reading data from a Kafka topic. It includes establishing a connection to Kafka, handling streams and listening to data. 
 
@@ -43,7 +43,7 @@ import MAT.OCS.Streaming.Model.DataFormat.*;
 import MAT.OCS.Streaming.Kafka.*;
 ```
 
-## Connecting to services
+## Connecting to Services
 Open a connection to Kafka using `KafkaStreamClient`. 
 
 ```matlab
@@ -57,7 +57,7 @@ dependencyClient = HttpDependencyClient(Uri('http://server:8180/api/dependencies
 dataFormatClient = DataFormatClient(dependencyClient);
 ```
 
-## Streaming topic and reading data
+## Streaming Topic and Reading Data
 To subscribe to a topic, hook a callback to handle the incoming data, and then poll the pipeline to process network traffic. 
 
 ```matlab
@@ -85,7 +85,7 @@ EventToCallbackConverter.RegisterEventHandler(inputFeed, 'DataBuffered', @self.d
 
 **NOTE:** `EventToCallbackConverter` is used in this example to setup a callback. 
 
-## Working with data
+## Working With Data
 ```matlab
 data = src.Buffer.GetData();
 vCar = data.Parameters(1);
