@@ -5,12 +5,18 @@
 Table of Contents
 =================
 <!--ts-->
-   * [Introduction](/README.md)
-   * [Writing Data](/docs/WritingData.md)
-   * [Reading Data](/docs/ReadingData.md)
+* [Introduction](/README.md)
+* C# Samples
+    * [Writing Data](/docs/CSharp/WritingData.md)
+    * [Reading Data](/docs/CSharp/ReadingData.md)
+* MATLAB Samples
+    * [Introduction to .NET MATLAB integration](/docs/Matlab/IntroToNetMatlabIntegration.md)
+    * [Reading data from Kafka](/docs/Matlab/ReadingDataFromKafka.md)
+    * [Writing data to Kafka](/docs/Matlab/WritingDataToKafka.md)
+    * [Reading and writing in pipeline](/docs/Matlab/ReadingAndWritingInPipeline.md)
 <!--te-->
 
-## Reading Data
+# Reading Data
 
 Demonstrates reading from a stream and printing time and parameter data to the Console.
 
