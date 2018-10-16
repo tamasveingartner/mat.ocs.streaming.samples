@@ -78,7 +78,7 @@ import MAT.OCS.Streaming.*;
 import MAT.OCS.Streaming.Model.DataFormat.*;
 
 input =  SessionTelemetryDataInput(streamId, dataFormatClient);
-inputFeed = input.DataInput.BindDefaultFeed('vCar:Chassis);
+inputFeed = input.DataInput.BindDefaultFeed('vCar:Chassis');
 
 EventToCallbackConverter.RegisterEventHandler(inputFeed, 'DataBuffered', @self.dataBuffered);
 ```
