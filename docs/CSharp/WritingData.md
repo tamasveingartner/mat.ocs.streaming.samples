@@ -1,16 +1,17 @@
 # ATLAS Advanced Streaming Samples
 
-![alt text](https://mat-ocs.visualstudio.com/Telemetry%20Analytics%20Platform/_apis/build/status/MAT.OCS.Streaming/Streaming%20Samples?branchName=develop)
+![Build Status](https://mat-ocs.visualstudio.com/Telemetry%20Analytics%20Platform/_apis/build/status/MAT.OCS.Streaming/Streaming%20Samples?branchName=develop)
 
 Table of Contents
 =================
 <!--ts-->
-   * [Introduction](/README.md)
-   * [Writing Data](/docs/WritingData.md)
-   * [Reading Data](/docs/ReadingData.md)
+* [Introduction - MAT.OCS.Streaming library](/README.md)
+* C# samples
+    * [Writing data](/docs/CSharp/WritingData.md)
+    * [Reading data](/docs/CSharp/ReadingData.md)
 <!--te-->
 
-## Writing Data
+# Writing Data
 
 Demonstrates writing data to a stream, with ATLAS configuration.
 
