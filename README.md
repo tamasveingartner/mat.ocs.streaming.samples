@@ -25,6 +25,9 @@ With support for Apache Kafka, the streaming API also offers:
 * Replay of historic streams 
 * Fault-tolerant, scalable broker architecture 
 
+## API Documentation
+See [v1.8 documentation](https://mclarenappliedtechnologies.github.io/mat.atlas.advancedstreams-docs/1.8/)
+
 ## Knowledgebase
 Be sure to look at our support knowledgebase on Zendesk: https://mclarenappliedtechnologies.zendesk.com/
 
